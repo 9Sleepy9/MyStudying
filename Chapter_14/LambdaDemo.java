@@ -10,7 +10,7 @@ interface GetMyValue {
 }
 
 // Демонстрация работы Лямда-выражений
-public class LamdaDemo {
+public class LambdaDemo {
 
     public static void main(String[] args) {
 
