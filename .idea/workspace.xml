@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91cbf074-4ed5-4fa1-949a-2930a1365d11" name="Changes" comment="Lamda Demo Second">
+    <list default="true" id="91cbf074-4ed5-4fa1-949a-2930a1365d11" name="Changes" comment="ignore update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_14/LamdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_14/LambdaDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +85,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaDemo3">
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaDemo" />
+  <component name="RunManager" selected="Application.GenericFunctionalInterfaceDemo (1)">
+    <configuration name="BlockLambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_14.BlockLambdaDemo" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +99,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaDemo2" />
+    <configuration name="GenericFunctionalInterfaceDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_14.GenericFunctionalInterfaceDemo" />
+      <module name="MyStudying" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericFunctionalInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_14.GenericFunctionalInterfaceDemo" />
+      <module name="MyStudying" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaDemo" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
@@ -126,33 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LamdaDemo" />
-      <module name="MyStudying" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingGit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingGit" />
-      <module name="MyStudying" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericFunctionalInterfaceDemo (1)" />
+        <item itemvalue="Application.GenericFunctionalInterfaceDemo" />
+        <item itemvalue="Application.BlockLambdaDemo" />
         <item itemvalue="Application.LambdaDemo3" />
         <item itemvalue="Application.LambdaDemo" />
-        <item itemvalue="Application.LambdaDemo2" />
-        <item itemvalue="Application.LamdaDemo" />
-        <item itemvalue="Application.TestingGit" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +205,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675081595397</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lamda Demo Third + Changes in Second">
+      <created>1675082378335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675082378335</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lamda Demo Third + Changes in Second">
+      <created>1675082397301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675082397301</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Block Lambda Demo">
+      <created>1675084169935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675084169935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ignore update">
+      <created>1675084556860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675084556860</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +264,9 @@
     <MESSAGE value="Test2" />
     <MESSAGE value="Lamda Demo First" />
     <MESSAGE value="Lamda Demo Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lamda Demo Second" />
+    <MESSAGE value="Lamda Demo Third + Changes in Second" />
+    <MESSAGE value="Block Lambda Demo" />
+    <MESSAGE value="ignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore update" />
   </component>
 </project>
