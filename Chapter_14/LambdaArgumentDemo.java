@@ -44,6 +44,10 @@ public class LambdaArgumentDemo {
 
         System.out.println();
 
+        // For Chapter questions:
+        outStr = changeStr((str) -> str.replaceAll(" ", ""), inStr);
+        System.out.println("String with deleted 'spaces': " + outStr);
+
         // Reversing letters case - It is bad example, because code became harder,
         // in such case it is better to use variable for Lambda
         outStr = changeStr( (str) -> {

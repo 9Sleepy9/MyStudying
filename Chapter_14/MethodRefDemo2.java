@@ -24,6 +24,19 @@ class MyIntNum {
         }
     }
 
+    boolean isCommonFactor(int n) {
+        if (n < 2)
+            return false;
+        for (int i = 2; i < n; i++) {
+            if ( i > v )
+                return false;
+            if ( (n % i) == 0 && (v % i) == 0 )
+                return true;
+        }
+
+        return false;
+    }
+
 }
 
 public class MethodRefDemo2 {
@@ -39,5 +52,9 @@ public class MethodRefDemo2 {
 
         ip = myNum2::isFactor;
         result = ip.test(3);
+
+        ip = myNum1::isCommonFactor;
+        System.out.println("For numbers 12 and 4: " + ip.test(4));
+        System.out.println("For numbers 12 and 5: " + ip.test(5));
     }
 }
