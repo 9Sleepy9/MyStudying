@@ -14,7 +14,8 @@ public class EffectsAndTransformsDemo extends Application {
 
     double angle = 0.0;
     double scaleFactor = 0.4;
-    double blurVal = 1.0;
+    double blurVal1 = 1.0;
+    double blurVal2 = 1.0;
 
     // Создаём объекты для эффектов
     Reflection reflection = new Reflection();
@@ -57,10 +58,21 @@ public class EffectsAndTransformsDemo extends Application {
         // Реализуем функцию поворота при нажатии на кнопку btnRotate
         btnRotate.setOnAction( ae -> {
             angle += 15;
-
             rotate.setAngle(angle);
             rotate.setPivotX(btnRotate.getWidth() / 2);
             rotate.setPivotY(btnRotate.getHeight() / 2);
+
+            if (blurVal2 == 5.0) {
+                blurVal2 = 1.0;
+                btnRotate.setEffect(null);
+            }
+            else {
+                blurVal2++;
+                btnRotate.setEffect(blur);
+            }
+
+            blur.setWidth(5);
+            blur.setHeight(5);
         });
 
         // Реализуем увеличение при нажатии на кнопку btnScale
@@ -74,8 +86,8 @@ public class EffectsAndTransformsDemo extends Application {
 
         // Реализуем размытие при нажатии на кнопку btnBlur
         btnBlur.setOnAction( ae -> {
-            if (blurVal == 10.0) {
-                blurVal = 1.0;
+            if (blurVal1 == 10.0) {
+                blurVal1 = 1.0;
                 btnBlur.setEffect(null);
                 btnBlur.setText("Размытие отменено");
             }
@@ -83,13 +95,13 @@ public class EffectsAndTransformsDemo extends Application {
                 btnBlur.setText("Добавить размытие");
             }
             else {
-                blurVal++;
+                blurVal1++;
                 btnBlur.setEffect(blur);
                 btnBlur.setText("Добавить размытие");
             }
 
-            blur.setWidth(blurVal);
-            blur.setHeight(blurVal);
+            blur.setWidth(blurVal1);
+            blur.setHeight(blurVal1);
         });
 
         // Добавляем созданные узлы к корневому узлу сцены
