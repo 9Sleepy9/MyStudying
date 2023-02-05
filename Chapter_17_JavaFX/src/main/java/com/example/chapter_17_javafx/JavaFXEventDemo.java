@@ -42,6 +42,7 @@ public class JavaFXEventDemo extends Application {
         // Создаём две кнопки
         Button btnUp = new Button("Вверх");
         Button btnDown = new Button("Вниз");
+        Button btnExit = new Button("Выход");
 
         // Добавляем действия (в анонимном классе) в обработчик событий, при нажатии на кнопку
         btnUp.setOnAction(new EventHandler<ActionEvent>() {
@@ -55,8 +56,15 @@ public class JavaFXEventDemo extends Application {
         // т.к. интерфейс EventHandler имеет только один метод
         btnDown.setOnAction(actionEvent -> response.setText("Вы нажали 'Вниз'"));
 
+        // Кнопка для выхода из приложения
+        btnExit.setOnAction( ae -> Platform.exit());
+
+        Separator separator = new Separator();
+
+        separator.setPrefWidth(180);
+
         // Добавляем узлы (кнопки и метка) к корневому узлу
-        rootNode.getChildren().addAll(btnUp, btnDown, response);
+        rootNode.getChildren().addAll(btnUp, btnDown, response, separator, btnExit);
 
         // Выводим полученную платформу на экран
         myStage.show();
