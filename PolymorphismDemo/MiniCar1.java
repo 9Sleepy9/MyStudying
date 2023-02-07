@@ -7,4 +7,8 @@ public class MiniCar1 extends Car1 {
     public int serialNumber() {
         return 10001;
     }
+
+    public int getWheels() {
+        return 4;
+    }
 }
