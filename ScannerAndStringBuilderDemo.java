@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -18,6 +20,20 @@ public class ScannerAndStringBuilderDemo {
         // str = System.in.read();
         // str = System.in.readAllBytes();
 
+        System.out.println();
+
+        File textFile = new File("Test.txt");
+        try {
+            scan = new Scanner(textFile);
+        } catch (FileNotFoundException exc) {
+            System.out.println("Ошибка ввода файла");
+        }
+
+        while (scan.hasNextLine()) {
+            str = scan.nextLine();
+            System.out.println(str);
+        }
+        scan.close();
         System.out.println();
 
         // Демонстрация использования StringBuilder
