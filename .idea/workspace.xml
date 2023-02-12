@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91cbf074-4ed5-4fa1-949a-2930a1365d11" name="Changes" comment="Fix">
+    <list default="true" id="91cbf074-4ed5-4fa1-949a-2930a1365d11" name="Changes" comment="Additional Enumeration demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStudying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyStudying.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +71,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2L0j604nJyaWdXrsRSkDWcFoXqs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,24 +90,22 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "File.Encoding",
     "two.files.diff.last.used.file": "D:/Programs/IdeaProjects/MyStudying/Chapter_14/LambdaWithArraysDemo.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DocCommentsDemo">
-    <configuration name="DocCommentsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DocCommentsDemo" />
-      <module name="MyStudying" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaArgumentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaArgumentDemo" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\IdeaProjects\MyStudying\Serialization" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayListToArray">
+    <configuration name="AnotherEnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_12.AnotherEnumDemo" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="PATTERN" value="Chapter_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaExceptionDemo" />
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsDemo.ArrayListDemo" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="PATTERN" value="CollectionsDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaWithArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.LambdaWithArraysDemo" />
+    <configuration name="ArrayListResizeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsDemo.ArrayListResizeDemo" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="PATTERN" value="CollectionsDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +139,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarCaptureInLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter_14.VarCaptureInLambda" />
+    <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsDemo.ArrayListToArray" />
       <module name="MyStudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter_14.*" />
+          <option name="PATTERN" value="CollectionsDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="MyStudying" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DocCommentsDemo" />
-        <item itemvalue="Application.LambdaWithArraysDemo" />
-        <item itemvalue="Application.LambdaExceptionDemo" />
-        <item itemvalue="Application.VarCaptureInLambda" />
-        <item itemvalue="Application.LambdaArgumentDemo" />
+        <item itemvalue="Application.ArrayListToArray" />
+        <item itemvalue="Application.ArrayListResizeDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.AnotherEnumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +297,98 @@
       <option name="project" value="LOCAL" />
       <updated>1675430727444</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Documentation Comments Demo">
+      <created>1675667763988</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675667763988</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Some environment updates">
+      <created>1675667797292</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675667797292</updated>
+    </task>
+    <task id="LOCAL-00020" summary="'this' keyword additional way demo">
+      <created>1675677140700</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675677140700</updated>
+    </task>
+    <task id="LOCAL-00021" summary="'var' keyword and Runtime.Version Demo">
+      <created>1675700105936</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675700105936</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Scanner, StringBuilder and printf Demo">
+      <created>1675756060896</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675756060896</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Polymorphism and late binding (dynamic linkage) Demo">
+      <created>1675781926735</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781926735</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Up/Down casting Demo">
+      <created>1675782761260</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675782761260</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Up/Down casting Demo">
+      <created>1675782776738</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675782776738</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ArrayList Simple Demo">
+      <created>1675801714912</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675801714912</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Scanner with File example added">
+      <created>1675860544358</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675860544358</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Scanner with File example added">
+      <created>1675862069439</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675862069439</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Serialization demo">
+      <created>1675886283011</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675886283011</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Additional Enumeration demo">
+      <created>1675950694546</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950694546</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +402,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Testing" />
+                        <option value="Laptop" />
                       </list>
                     </value>
                   </entry>
@@ -326,6 +429,17 @@
     <MESSAGE value="Variable Capture Demonstration ('final')" />
     <MESSAGE value="Explain of Exceptions in Lambda" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Documentation Comments Demo" />
+    <MESSAGE value="Some environment updates" />
+    <MESSAGE value="'this' keyword additional way demo" />
+    <MESSAGE value="'var' keyword and Runtime.Version Demo" />
+    <MESSAGE value="Scanner, StringBuilder and printf Demo" />
+    <MESSAGE value="Polymorphism and late binding (dynamic linkage) Demo" />
+    <MESSAGE value="Up/Down casting Demo" />
+    <MESSAGE value="ArrayList Simple Demo" />
+    <MESSAGE value="Scanner with File example added" />
+    <MESSAGE value="Serialization demo" />
+    <MESSAGE value="Additional Enumeration demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional Enumeration demo" />
   </component>
 </project>
